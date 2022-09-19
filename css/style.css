@@ -87,3 +87,7 @@ main{
 .text p{
     font-size: 20px;
 }
+
+.dx{
+    flex-direction: row-reverse;
+}

@@ -95,5 +95,30 @@ h1{
 }
 
 .final-block{
-    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.final-block h2{
+    margin-bottom: 30px;
+}
+
+.final-block p{
+    margin-bottom: 30px;
+}
+
+.final-button{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    max-width: 500px;
+    text-align: center;
+}
+
+.blue{
+    background-color: #5865f2;
+    color: white;
+    font-size: 20px;
+}
+.final-button h2{
+    margin: 30px;
 }

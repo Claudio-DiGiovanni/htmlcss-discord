@@ -66,3 +66,24 @@ h1{
 .text-head a{
     margin: 24px 24px 0px 0px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    padding: 56px;
+    max-width: 1000px;
+}
+
+.text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.text p{
+    font-size: 20px;
+}

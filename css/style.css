@@ -67,15 +67,17 @@ h1{
     margin: 24px 24px 0px 0px;
 }
 
-main{
+.content{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .block{
     display: flex;
     padding: 56px;
     max-width: 1000px;
+    margin-bottom: 100px;
 }
 
 .text h2{
@@ -90,4 +92,8 @@ main{
 
 .dx{
     flex-direction: row-reverse;
+}
+
+.final-block{
+    margin: auto;
 }

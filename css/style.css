@@ -112,6 +112,7 @@ h1{
     background-size: cover;
     max-width: 500px;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .blue{
@@ -122,6 +123,67 @@ h1{
 .final-button h2{
     margin: 30px;
 }
-footer{
+.flex-footer{
     background-color: #23272a;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    display: flex;
+    padding-left: 2rem;
+}
+
+.flex-footer h3{
+    color: #5865f2;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.social{
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+
+.social i{
+    margin: 8px;
+}
+
+.select{
+    color: white;
+}
+
+.select img{
+    width: 30px;
+    vertical-align: middle;
+}
+.col{
+    margin: 5rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.title-footer{
+    color: #5865f2;
+    text-decoration: none;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.link-footer{
+    color: white;
+    text-decoration: none;
+    line-height: 3rem;
+}
+
+hr{
+    color: #5865f2;
+}
+
+.last-footer{
+    background-color: #23272a;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-top: 1px solid #5865f2;
 }

@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Discord</title>
+
+    <!--style-->
     <link rel="stylesheet" href="css/style.css">
+   
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   
+    <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav>
-            <img class="logo" src="img/logo.svg" alt="logo">
+            <a href="#"><img class="logo" src="img/logo.svg" alt="logo"></a>
             <div class="link">
                 <a href="#">Scarica</a>
                 <a href="#">Perchè Discord</a>
@@ -75,11 +84,86 @@
         </div>
     </main>
 
-    <footer>
-        <div>
+    <footer class="flex-footer">
+        <div class="col">
             <h3>Il tuo posto per parlare</h3>
-            <input type="select">
+            <div class="select">
+                <img src="img/ita.png">
+                <span>Italiano</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="#" class="title-footer">Prodotto</a> 
+                    <ul>
+                        <li ><a href="#" class="link-footer">Scarica</a></li>
+                        <li ><a href="#" class="link-footer">Perchè Discord</a></li>
+                        <li ><a href="#" class="link-footer">Nitro</a></li>
+                        <li ><a href="#" class="link-footer">Sicurezza</a></li>
+                        <li ><a href="#" class="link-footer">Assistenza</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <ul>
+                <li><a href="#" class="title-footer">Compagnia</a> 
+                    <ul>
+                        <li ><a href="#" class="link-footer">Chi siamo</a></li>
+                        <li ><a href="#" class="link-footer">Lavora con noi</a></li>
+                        <li ><a href="#" class="link-footer">Marchio</a></li>
+                        <li ><a href="#" class="link-footer">Redazione</a></li>
+                        <li ><a href="#" class="link-footer">Negozio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <ul>
+                <li><a href="#" class="title-footer">Risorse</a> 
+                    <ul>
+                        <li ><a href="#" class="link-footer">Scarica</a></li>
+                        <li ><a href="#" class="link-footer">Perchè Discord</a></li>
+                        <li ><a href="#" class="link-footer">Nitro</a></li>
+                        <li ><a href="#" class="link-footer">Sicurezza</a></li>
+                        <li ><a href="#" class="link-footer">Assistenza</a></li>
+                        <li ><a href="#" class="link-footer">Scarica</a></li>
+                        <li ><a href="#" class="link-footer">Perchè Discord</a></li>
+                        <li ><a href="#" class="link-footer">Nitro</a></li>
+                        <li ><a href="#" class="link-footer">Sicurezza</a></li>
+                        <li ><a href="#" class="link-footer">Assistenza</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <ul>
+                <li><a href="#" class="title-footer">Norme</a> 
+                    <ul>
+                        <li ><a href="#" class="link-footer">Scarica</a></li>
+                        <li ><a href="#" class="link-footer">Perchè Discord</a></li>
+                        <li ><a href="#" class="link-footer">Nitro</a></li>
+                        <li ><a href="#" class="link-footer">Sicurezza</a></li>
+                        <li ><a href="#" class="link-footer">Assistenza</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </footer>
+
+    <div class="last-footer">
+        <img src="img/logo.svg">
+        <a href="#" class="button blue">Registrati</a>
+    </div>
 </body>
 </html>

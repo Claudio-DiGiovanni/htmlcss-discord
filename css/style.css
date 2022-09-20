@@ -75,9 +75,9 @@ h1{
 
 .block{
     display: flex;
-    padding: 50px 400px;
+    padding: 50px 700px;
     max-width: 100%;
-    margin-bottom: 100px;
+
 }
 
 .text h2{
@@ -92,12 +92,19 @@ h1{
 
 .dx{
     flex-direction: row-reverse;
-    background-image: url(../img/wave.svg);
+    background-color: lightgrey;
+}
+
+
+.rotate{
+    transform: rotate(180deg);
 }
 
 .final-block{
-    max-width: 1000px;
+    max-width: 100%;
+    padding: 0 700px;
     text-align: center;
+    background-color: lightgray;
 }
 
 .final-block h2{
@@ -113,7 +120,12 @@ h1{
     background-size: cover;
     max-width: 500px;
     text-align: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+.background{
+    background-color: lightgray;
+    width: 100%;
 }
 
 .blue{
@@ -157,7 +169,7 @@ h1{
     vertical-align: middle;
 }
 .col{
-    margin: 5rem;
+    margin: 8rem;
 }
 
 ul{

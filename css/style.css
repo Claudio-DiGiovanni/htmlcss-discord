@@ -75,8 +75,8 @@ h1{
 
 .block{
     display: flex;
-    padding: 56px;
-    max-width: 1000px;
+    padding: 50px 400px;
+    max-width: 100%;
     margin-bottom: 100px;
 }
 
@@ -92,6 +92,7 @@ h1{
 
 .dx{
     flex-direction: row-reverse;
+    background-image: url(../img/wave.svg);
 }
 
 .final-block{
@@ -186,4 +187,13 @@ hr{
     justify-content: space-between;
     padding: 2rem;
     border-top: 1px solid #5865f2;
+}
+
+.button:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 0 0 5px black;
 }
